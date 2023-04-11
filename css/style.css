@@ -1,0 +1,168 @@
+.welcome{width: 100%;
+
+    
+}
+.container{
+ background-color: rgb(223, 255, 242);
+    width: 80%;
+    margin: auto;
+    height: 1150px;
+    position: relative;
+    opacity: .7px;
+    
+}
+.div1{
+
+   height: 100px;
+    width: 250px;
+    background-color:rgb(97, 85, 85);
+    animation-name: change;
+    animation-duration: 2s;
+    position: absolute;
+    animation-fill-mode: forwards;
+    text-align: center;
+    font-size: 15px;
+    color:white;
+}
+@keyframes change{
+   0%{
+left:0px;
+
+    }
+    25%{left:100px;}
+       
+    50%{
+    
+       left: 350px;
+      
+
+    }
+    100%{
+
+left:80%;
+
+    }
+}
+
+.div2{
+
+    height: 100px;
+     width: 250px;
+     background-image: url(../image/1.jpg);
+     background-size: cover; 
+     animation-name: change;
+     animation-duration: 2s;
+     position: absolute;
+     animation-direction: reverse;
+     animation-fill-mode:backwards;
+     margin-top: 150px;
+     animation-delay: 2s;
+     
+ }
+
+ .div3{
+
+    height: 100px;
+     width: 250px;
+background-image: url(../image/2.jpg);
+background-size: cover;
+     animation-name: change;
+     animation-duration: 2s;
+     position: absolute;
+     animation-fill-mode: forwards;
+ 
+     margin-top: 300px;
+     animation-delay: 4s;
+ }
+
+
+
+.div4{
+
+    height: 100px;
+     width: 250px;
+     background-image: url(../image/3.jpg);
+     background-size: cover;
+     animation-name: change;
+     animation-duration: 2s;
+     position: absolute;
+     animation-direction: reverse;
+     animation-fill-mode:backwards;
+     margin-top: 450px;
+    
+     animation-delay: 6s;
+     
+ }
+ .div5{
+
+    height: 100px;
+     width: 250px;
+     background-image: url(../image/4.jpg);
+     background-size: cover;
+     animation-name: change;
+     animation-duration: 2s;
+     position: absolute;
+     animation-fill-mode: forwards;
+ 
+     margin-top: 600px;
+     animation-delay: 8s;
+ }
+
+
+
+.div6{
+
+    height: 100px;
+     width: 250px;
+     background-image: url(../image/5.jpg);
+     background-size: cover;
+     animation-name: change;
+     animation-duration: 2s;
+     position: absolute;
+     animation-direction: reverse;
+     animation-fill-mode:backwards;
+     margin-top: 750px;
+    
+     animation-delay: 10s;
+     
+ }
+ .div7{
+
+    height: 100px;
+     width: 250px;
+     background-image: url(../image/6.jpg);
+     background-size: cover;
+     animation-name: change;
+     animation-duration: 2s;
+     position: absolute;
+     animation-fill-mode: forwards;
+ 
+     margin-top: 900px;
+     animation-delay: 12s;
+ }
+
+
+
+.div8{
+
+    height: 100px;
+     width: 250px;
+     background-image: url(../image/7.jpg);
+     background-size: cover;
+     animation-name: change;
+     animation-duration: 2s;
+     position: absolute;
+     animation-direction: reverse;
+     animation-fill-mode:backwards;
+     margin-top: 1050px;
+     animation-delay: 14s;
+     
+ }
+
+
+
+
+
+
+
+
